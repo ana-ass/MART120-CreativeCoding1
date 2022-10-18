@@ -1,0 +1,24 @@
+div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:crimson;
+}
+
+span
+            {
+                background-color: 
+                indigo;
+                -webkit-text-fill-color: antiquewhite;
+                font-size: large;
+            }
+
+.myClass{
+    font-size: x-large;
+    color: darkred;
+    font-weight: bolder;
+}
+
+#myID{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: brown;
+}
