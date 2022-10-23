@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> Third Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <p> Highlighted fields are required</p>
+        <br />
+        <form>
+            First Name: <input type="text" id="fName" placeholder="&nbsp" required><br>
+            Last Name: <input type="text" id="lName" placeholder="&nbsp" required><br>
+            Email Address <input type="text" id="eMail" placeholder="&nbsp" required></span><br>
+        <br />
+        <h2>Do You Accept the Terms of Agreement?</h2>
+        <input type="checkbox" name="Yes" value="yes" id="yesbox" required>Yes<br>
+        <input type="checkbox" name="No" value="no" id="nobox" required>No<br>
+        <button id="mySubmit" class="btn btn-primary" onclick="checktermsyes();" type="button">Submit</button>
+        </form>
+        <script>
+            function checktermsyes()
+            {
+                var checkBox =
+                document.getElementById("yesbox");
+                if(checkBox.checked == false){
+                    alert("Please check Yes.");
+                } else{
+                    alert("Thank you")
+                }
+            }
+        </script>
+<br />
+<br />
+            <a href="page1.html">Go To Home Page</a>
+            <br />
+            <a href="page2.html">Go To Second Page</a>
+    </body>
+</html>
