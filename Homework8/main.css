@@ -24,6 +24,7 @@ span
 }
   input[required]:placeholder-shown {
     border-color: var(--clr-primary);
+    background-color: red;
   }
   
   
